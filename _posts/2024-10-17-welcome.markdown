@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Namaskara"
+date:   2024-10-17 18:38:50 +0530
+categories: jekyll update
+---
+This is akin to Hello World for programmers.
+I am not sure what I will write about, but I know it will be interesting
+
