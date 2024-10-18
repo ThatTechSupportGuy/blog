@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Poetry
-#permalink: /poetry/
+permalink: /poetry/
 ---
 {% for post in site.posts%}
 [{{post.title}}]({{post.url}}) {{post.categories}}

@@ -4,5 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Hi. My name is Rahul Chatta. I have been a software developer for over 2 decades.
+Hello there.Your neighbourhood friendly tech support guy here.
+I have been a software developer for over 2 decades.
 
