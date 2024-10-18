@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tread Lightly"
-categories: blog poetry
+categories: poetry
 ---
 
 Tread lightly, my dear child,
