@@ -4,8 +4,7 @@ title: Poetry
 permalink: /poetry/
 ---
 {% for post in site.posts%}
-[{{post.title}}]({{site.baseurl}}{{post.url}}) {{post.categories}}
-{%if post.categories == 'poetry'%}
-{{post.url}}
-{%endif%}
+{% if {{post.categories}} contains 'poetry' %}
+[{{post.title}}]({{site.baseurl}}{{post.url}})
+{% endif %}
 {% endfor %}
