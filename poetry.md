@@ -5,7 +5,7 @@ title: Poetry
 ---
 {% for post in site.posts%}
 [{{post.title}}]({{post.url}}) {{post.categories}}
-{%if post.categories contain 'poetry'%}
+{%if post.categories == 'poetry'%}
 {{post.url}}
 {%endif%}
 {% endfor %}
