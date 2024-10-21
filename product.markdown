@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Poetry
-permalink: /poetry/
+title: Product
+permalink: /Product/
 ---
 {% for post in site.posts%}
-{% if post.categories contains 'poetry' %}
+{% if post.categories contains 'Product' %}
 [{{post.title}}]({{site.baseurl}}{{post.url}})
 {% endif %}
 {% endfor %}
