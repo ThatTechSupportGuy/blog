@@ -1,14 +1,14 @@
 title: That Tech Support Guy
 email: subah2subah@gmail.com
+author: subah2subah
 description: >- 
-  Blog of Tech Support Guy.
   I write about tech, poetry and life.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 #baseurl: ""
 url: "http://example.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
+#twitter_username: ""
 github_username:  thattechsupportguy
-
+rss: "Subscribe to rss"
 permalink: /:categories/:title
 
 links:
