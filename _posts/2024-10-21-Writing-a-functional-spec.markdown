@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Writing a Functional Specification
-categories: Product
+categories: product
 ---
 
 ### My Guide to writing  a Functional Spec:

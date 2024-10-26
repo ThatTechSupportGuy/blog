@@ -16,16 +16,17 @@ links:
     url: /poetry/
   - title: Technology
     url: /technology/
-  - title: About
-    url: /about/
   - title: Product
     url: /product/
-    
-           
+  - title: About
+    url: /about/
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+sass:
+    sass_dir: _sass  
 
 # Exclude from processing.
 # The following items will not be processed, by default.

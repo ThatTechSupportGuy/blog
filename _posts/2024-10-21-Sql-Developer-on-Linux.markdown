@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Sql Developer on Linux
-categories: Technology
+categories: technology
 ---
 
 ### Installing sql developer on Linux.
