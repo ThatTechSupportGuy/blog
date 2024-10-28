@@ -266,3 +266,12 @@
     }
   }
 }
+
+.site-section {
+  @extend %clearfix;
+  padding-top: $base-font-size;
+}
+.site-section-last {
+  padding-bottom: $base-font-size;
+}
+
