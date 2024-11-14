@@ -2,6 +2,8 @@
 layout: post
 title:  "Tread Lightly"
 categories: poetry
+featured: true
+tags: inspiration
 ---
 
 Tread lightly, my dear child,\

@@ -233,6 +233,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  color: lightseagreen;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -272,6 +273,6 @@
   padding-top: $base-font-size;
 }
 .site-section-last {
-  padding-bottom: $base -font-size;
+  padding-bottom: $base-font-size;
 }
 

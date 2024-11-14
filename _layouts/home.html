@@ -4,21 +4,29 @@ layout: default
 
 <div class="home">
 <!--Featured post-->
+<section class = "site-section site-section-last">
+  <div class="wrapper">
+  <h1 class ="post-title p-name">featured article</h1>
+  {% assign count =0%}
+  {% for post in site.posts reverse %}
+   {% if post.featured==true and count < 1 %}
+      <div class = "post post-featured">
+        {%include posts.html%}
+      </div>
+      {% assign count = count | plus: 1%}
+     {% endif %}
+    {%endfor%}
+  </div>
+  </section>
 <!-- featured project-->
 <!-- article list -->
 <section class = "site-section site-section-last">
 <div class="wrapper">
-<h1>latest articles</h1>
+<h1 class ="post-title p-name">latest articles</h1>
 <ul class="post-list">
 {% for post in site.posts reverse | limit:4 %}
    <li class = "post">
-  <h2>{{post.title}}</h2>
-  <p>{{post.content|strip_html| strip_newlines| truncate: 150}}</p>
-  <p class="post-read-more-link">
-    <a href = "{{site.baseurl}}{{post.url}}" class = "read-more">read more...</a>
-  </p>
-
-
+{%include posts.html%}
   </li>
 {%endfor%}
 </ul>

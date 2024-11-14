@@ -2,6 +2,7 @@
 layout: post
 title:  "Ashes"
 categories: poetry
+tags: inspiration
 ---
 
 I left my love in ashes\

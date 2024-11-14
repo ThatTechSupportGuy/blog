@@ -2,6 +2,9 @@
 layout: post
 title: Writing a Functional Specification
 categories: product
+featured: true
+tags: project
+
 ---
 
 ### My Guide to writing  a Functional Spec:
