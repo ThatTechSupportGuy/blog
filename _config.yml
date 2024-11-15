@@ -20,6 +20,8 @@ links:
     url: /product/
   - title: About
     url: /about/
+  - title: Hire Me
+    url: /Hire/
 
 # Build settings
 theme: minima
